@@ -8,6 +8,7 @@ import java.time.Instant;
 
 /**
  * @author Daniel
+ * @author Frank
  *
  */
 public class DataTime {
