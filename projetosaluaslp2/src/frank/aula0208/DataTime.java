@@ -1,13 +1,12 @@
 /**
  * 
  */
-package aula0208;
+package frank.aula0208;
 
 import java.time.Duration;
 import java.time.Instant;
 
 /**
- * @author Daniel
  * @author Frank
  *
  */

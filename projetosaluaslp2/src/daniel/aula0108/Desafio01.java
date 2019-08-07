@@ -1,7 +1,7 @@
 /**
  * 
  */
-package aula0108;
+package daniel.aula0108;
 
 import java.util.Random;
 import java.util.Set;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package aula0208;
+package daniel.aula0208;
 
 /**
  * @author Daniel
@@ -15,8 +15,10 @@ public class Desafio01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Calcular as difrenssas  enyre hooras e segundos ebtre o Brazil e  a europa
-		
+		// Calcular as difrenssas enyre hooras e segundos ebtre o Brazil e a europa
+
+		/// Pesquisa sendo desenvolvido no siste,a compartilhado.
+
 	}
 
 }
