@@ -30,6 +30,14 @@ package sistemaCompartilhado;
 
 /// https://www.youtube.com/watch?v=6Uan34Whx3o
 
+/// https://www.youtube.com/watch?v=6Uan34Whx3o
+
+/// https://www.youtube.com/watch?v=VGZih1_fAvc
+
+/// https://www.youtube.com/watch?v=mFCd0oaaXac
+
+/// https://www.youtube.com/watch?v=nHdvin_2_F8
+
 /// ----------------------------------------------------------------------
 
 /// Um momento para Relaxar;
