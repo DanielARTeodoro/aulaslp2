@@ -2,14 +2,14 @@
  * 
  */
 
-package sistemaCompartilhado;
+package sistemaCompartilhado.aula0108;
 
 /**
  * @author Frank
  *
  */
 
-public class Desafio010108 {
+public class Desafio01 {
 
 	/**
 	 * @param args

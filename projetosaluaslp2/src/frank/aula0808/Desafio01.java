@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sistemaCompartilhado;
+package frank.aula0808;
 
 /**
  * @author Daniel
@@ -9,7 +9,7 @@ package sistemaCompartilhado;
  *
  */
 
-public class Desafio010208 {
+public class Desafio01 {
 
 	/**
 	 * @param args
