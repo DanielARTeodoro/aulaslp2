@@ -25,9 +25,9 @@ public class Desafio01 {
 		// Calcular as difrenssas enyre hooras e segundos ebtre o Brazil e a europa
 
 		/// Pesquisa sendo desenvolvido no siste,a compartilhado.
-		
-		/// Comesando o sistema; 
-		
+
+		/// Comesando o sistema;
+
 		Instant inicio = Instant.now();
 
 		try {
@@ -43,31 +43,22 @@ public class Desafio01 {
 
 		LocalTime time1 = LocalTime.now();
 		LocalTime time2 = LocalTime.of(23, 0, 0);
-		
+
 		Duration duracao = Duration.between(inicio, fim);
-		
-		Duration d1 = 
-		Duration.between(Instant.now().plusSeconds(1000), 
-				Instant.now().plusSeconds(1000));
-		
-		Duration d2 = 
-				Duration.between(Instant.now().plusSeconds(1000), 
-						Instant.now().plusSeconds(1000));
-		
-		Duration d3 = 
-				Duration.between(dt1, dt2);
-		
-		Duration d4 = 
-				Duration.between(time1, time2);
-		
-		
+
+		Duration d1 = Duration.between(Instant.now().plusSeconds(1000), Instant.now().plusSeconds(1000));
+
+		Duration d2 = Duration.between(Instant.now().plusSeconds(1000), Instant.now().plusSeconds(1000));
+
+		Duration d3 = Duration.between(dt1, dt2);
+
+		Duration d4 = Duration.between(time1, time2);
+
 		System.out.println(d1);
 		System.out.println(d2);
 		System.out.println(d3);
 		System.out.println(d4);
-		
 
-	
 	}
 
 }
