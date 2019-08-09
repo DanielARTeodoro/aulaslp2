@@ -7,6 +7,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.TimeZone;
 
 /**
  * @author Daniel
@@ -39,7 +40,7 @@ public class Desafio01 {
 		Instant fim = Instant.now();
 
 		LocalDateTime dt1 = LocalDateTime.now();
-		LocalDateTime dt2 = LocalDateTime.of(2017, 1, 1, 23, 0, 0);
+		LocalDateTime dt2 = LocalDateTime.of(2019, 1, 1, 23, 0, 0);
 
 		LocalTime time1 = LocalTime.now();
 		LocalTime time2 = LocalTime.of(23, 0, 0);
@@ -54,10 +55,13 @@ public class Desafio01 {
 
 		Duration d4 = Duration.between(time1, time2);
 
+		TimeZone tz = TimeZone.getTimeZone("England / London");
+
 		System.out.println(d1);
 		System.out.println(d2);
 		System.out.println(d3);
 		System.out.println(d4);
+		System.out.println(tz);
 
 	}
 
