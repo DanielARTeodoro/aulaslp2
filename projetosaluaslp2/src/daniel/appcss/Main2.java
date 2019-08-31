@@ -1,6 +1,6 @@
 package daniel.appcss;
 
-import br.com.hospitalif.util.Rotas;
+import daniel.util.Rotas;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -18,8 +18,23 @@ public class Main2 extends Application{
 		Stage.setScene(scene);
 		Stage.show();
 	}
+	
+	@Override
+	private void start(Stage Stage) throws Exception {
+		FXMLLoader loader = new FXMLLoader(getClass().getResource(Rotas.LOGIN));
+		Parent root = loader.load();
+		//Scene scene = new Scene(root,600,400);
+		//scene.getStylesheets().add(getClass().getResource("/css/app.css").toExternalForm());
+		//Stage.setScene(scene);
+		Stage.show();
+	}
+	
 	public static void main (String[] args) {
 		launch(args);
 	}
+	
+	
+	
+	
 
 }
